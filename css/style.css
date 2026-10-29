@@ -695,9 +695,10 @@ h4 { font-family: var(--archivo); font-size: 11px; font-weight: 600; letter-spac
 .ig__head h2 { margin: 0 0 8px; color: #000; font: 800 clamp(28px, 3vw, 46px)/.9 var(--archivo); letter-spacing: -.045em; text-transform: uppercase; }
 .ig__head p { margin: 0; font: 13px/1.4 var(--inter); letter-spacing: -.01em; color: rgba(0, 0, 0, .55); }
 .ig__carousel { display: flex; overflow: hidden; }
-.ig__track { display: flex; gap: 12px; width: max-content; animation: igScroll 40s linear infinite; }
+.ig__track { display: flex; gap: 12px; width: max-content; animation: igScroll var(--ig-duration, 40s) linear infinite; }
 .ig__carousel:hover .ig__track { animation-play-state: paused; }
-@keyframes igScroll { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+/* Include half the gap between the two identical groups for a seamless loop. */
+@keyframes igScroll { from { transform: translateX(calc(-50% - 6px)); } to { transform: translateX(0); } }
 .ig__group { display: flex; gap: 12px; flex: 0 0 auto; }
 .ig__poster { position: relative; flex: 0 0 auto; width: clamp(330px, 27vw, 480px); aspect-ratio: 4 / 5; border-radius: 8px; overflow: hidden; background: #e5e5e5; }
 .ig__poster img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s cubic-bezier(.16, 1, .3, 1); }

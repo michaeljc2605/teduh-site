@@ -39,17 +39,16 @@ Student project by **Studio Empat** (4 members). A sales website for TEDUH, a fi
 - Shop pages: Category, Fit and Sort panels (HTML `popover`), active filter chips, "Showing X of Y" count, Large / Medium / Small grid switch
 - Product cards: hover swaps to the street-style photo; the "+" button reveals quick sizes
 - Product pages: colour and size pickers that swap the photo, accordions, "You may also like" slider, sticky buy bar on mobile
-- Auto-scrolling Instagram strip above the footer on every page
+- Auto-scrolling Instagram mix-and-match strip above the footer: all ten supplied looks on shared pages, with five matching looks on each Women/Men page
 - Size-guide tabs, FAQ accordion (`<details>`), lookbook hover reveal, dismissible cookie notice
 
 ## Before you submit
 1. **team.html**: replace the group number, tutorial group, names and emails.
 2. **Forms**: create a free form at https://formspree.io and replace `your-form-id` in `get-15-off.html` and `contact.html`.
 3. **Store links**: replace `https://shopee.sg/` and `https://www.lazada.sg/` with your product's real listing URLs (keep the `?utm_...` part for tracking).
-4. **Photos**: catalogue cards, hover images, product galleries, homepage product slides, and collection-menu photos use the supplied Drunk Dad images in `images/catalog/`. `images/catalog/source-map.json` records each original product, image, and source collection. Women and Men pages follow those collection labels; shared pieces are marked Unisex, with collection-appropriate or product-only alternate photos. Other campaign, editorial, and community images are still placeholders. To replace those, save a photo over the placeholder **with the exact same file name**. Suggested shapes:
+4. **Photos**: catalogue cards, hover images, product galleries, homepage product slides, and collection-menu photos use the supplied Drunk Dad images in `images/catalog/`. `images/catalog/source-map.json` records each original product, image, and source collection. Women and Men pages follow those collection labels; shared pieces are marked Unisex, with collection-appropriate or product-only alternate photos. Instagram strips and the community gallery use the ten supplied AI-generated styling concepts in `images/instagram/`, optimized as WebP without changing their dimensions or framing. Their source files and collection assignments are recorded in `images/instagram/source-map.json`. Other campaign and editorial images are still placeholders. To replace those, save a photo over the placeholder **with the exact same file name**. Suggested shapes:
    - `hero.jpg` and `reveal-inside.jpg`: landscape (e.g. 2400 × 1350). The hero title sits in the centre
    - `reveal-left.jpg` and `reveal-right.jpg`: the two halves of a closed jacket front (zipper on the inside edge), 960 × 1080 each
-   - `community-*.jpg`: Instagram posts, portrait 4:5
    - `look-*.jpg`: tall 9:14 (e.g. 1350 × 2100)
    - `banner-women.jpg`, `banner-men.jpg` (menu cards), `about-studio.jpg`, `sustainability.jpg`: portrait 4:5
    - `journal-*.jpg`: landscape 16:10; `fabric-macro.jpg`: landscape; `og-image.jpg`: 1200 × 630
