@@ -19,7 +19,7 @@ Student project by **Studio Empat** (4 members). A sales website for TEDUH, a fi
 | Piece | Fit | Price | Colours |
 | --- | --- | --- | --- |
 | The Air Shirt | Unisex | S$59 | Blue Stripe, Light Grey, White |
-| The Breeze Pant | Unisex | S$65 | Espresso |
+| The Breeze Pant | Women | S$65 | Espresso |
 | Rose Wash Tee | Unisex | S$35 | Washed Black |
 | Stripe Knit Polo | Unisex | S$55 | Dark Stripe, Light Stripe |
 | Dot Lace Tank | Women | S$39 | Black Dot, Blue Dot |
@@ -28,8 +28,8 @@ Student project by **Studio Empat** (4 members). A sales website for TEDUH, a fi
 | Wrap Maxi Skirt | Women | S$52 | Black, White |
 | Suede Panel Skirt | Women | S$62 | Tan, Bone |
 | Suede Zip Jacket | Unisex | S$79 | Espresso, Marble |
-| Pleat Henley Top | Men | S$45 | Charcoal |
-| Drift Shorts | Men | S$39 | Black |
+| Pleat Henley Top | Unisex | S$45 | Charcoal |
+| Drift Shorts | Unisex | S$39 | Black |
 
 ## Interactivity (CSS only)
 - White tile "peel" transition on every page load
@@ -46,7 +46,7 @@ Student project by **Studio Empat** (4 members). A sales website for TEDUH, a fi
 1. **team.html**: replace the group number, tutorial group, names and emails.
 2. **Forms**: create a free form at https://formspree.io and replace `your-form-id` in `get-15-off.html` and `contact.html`.
 3. **Store links**: replace `https://shopee.sg/` and `https://www.lazada.sg/` with your product's real listing URLs (keep the `?utm_...` part for tracking).
-4. **Photos**: catalogue cards, hover images, product galleries, homepage product slides, and collection-menu photos use the supplied Drunk Dad images in `images/catalog/`. `images/catalog/source-map.json` records each original product and image. Other campaign, editorial, and community images are still placeholders. To replace those, save a photo over the placeholder **with the exact same file name**. Suggested shapes:
+4. **Photos**: catalogue cards, hover images, product galleries, homepage product slides, and collection-menu photos use the supplied Drunk Dad images in `images/catalog/`. `images/catalog/source-map.json` records each original product, image, and source collection. Women and Men pages follow those collection labels; shared pieces are marked Unisex, with collection-appropriate or product-only alternate photos. Other campaign, editorial, and community images are still placeholders. To replace those, save a photo over the placeholder **with the exact same file name**. Suggested shapes:
    - `hero.jpg` and `reveal-inside.jpg`: landscape (e.g. 2400 × 1350). The hero title sits in the centre
    - `reveal-left.jpg` and `reveal-right.jpg`: the two halves of a closed jacket front (zipper on the inside edge), 960 × 1080 each
    - `community-*.jpg`: Instagram posts, portrait 4:5

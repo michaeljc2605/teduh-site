@@ -7,259 +7,582 @@
       "source_product": "Fish Shirt in Blue",
       "source_url": "https://drunkdadinthelobby.com/products/fish-shirt-in-blue",
       "source_image": "images/shared-womens-mens/clothing/shirts/fish-shirt-in-blue__9005393838243__01__49633012318371.jpg",
-      "sha256": "363f4a5218922ff9a680becd7a3cc93a33ecb83b6f0c89bf74fa6d85b4672c3c"
+      "sha256": "363f4a5218922ff9a680becd7a3cc93a33ecb83b6f0c89bf74fa6d85b4672c3c",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/air-shirt-grey.jpg",
       "source_product": "Fish Shirt in Light Grey",
       "source_url": "https://drunkdadinthelobby.com/products/fish-shirt-in-blue-copy",
       "source_image": "images/shared-womens-mens/clothing/shirts/fish-shirt-in-blue-copy__9184474595491__01__51034044399779.jpg",
-      "sha256": "c04930f7ec59a7738234b69f591b0b3988617633cf7fa29dddb49533d3a9e2e9"
+      "sha256": "c04930f7ec59a7738234b69f591b0b3988617633cf7fa29dddb49533d3a9e2e9",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/air-shirt-white.jpg",
       "source_product": "Fish Shirt in White",
       "source_url": "https://drunkdadinthelobby.com/products/fish-shirt-in-white",
       "source_image": "images/shared-womens-mens/clothing/shirts/fish-shirt-in-white__9005394952355__01__45092773265571.jpg",
-      "sha256": "f3b2cb11a1ab9af2f161990d8ec35282450a7d31affe604fe5a95906d65b9515"
+      "sha256": "f3b2cb11a1ab9af2f161990d8ec35282450a7d31affe604fe5a95906d65b9515",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/air-shirt-alternate.jpg",
       "source_product": "Fish Shirt in Blue",
       "source_url": "https://drunkdadinthelobby.com/products/fish-shirt-in-blue",
       "source_image": "images/shared-womens-mens/clothing/shirts/fish-shirt-in-blue__9005393838243__02__49633012351139.jpg",
-      "sha256": "0acc7be24a13eda52f16f35563b25e1adb63a0937ac49be76112faeea2efa40e"
+      "sha256": "0acc7be24a13eda52f16f35563b25e1adb63a0937ac49be76112faeea2efa40e",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/rose-tee-black.jpg",
       "source_product": "Embossed Rose Unisex Tee",
       "source_url": "https://drunkdadinthelobby.com/products/embossed-rose-unisex-tee",
       "source_image": "images/shared-womens-mens/clothing/t-shirts/embossed-rose-unisex-tee__9211140571299__01__51481132007587.jpg",
-      "sha256": "2ba3fdaf0e1a569194767bfa676161783ba8c6c5112800b7ee5e53ae0fef31e6"
+      "sha256": "2ba3fdaf0e1a569194767bfa676161783ba8c6c5112800b7ee5e53ae0fef31e6",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/rose-tee-alternate.jpg",
       "source_product": "Embossed Rose Unisex Tee",
       "source_url": "https://drunkdadinthelobby.com/products/embossed-rose-unisex-tee",
       "source_image": "images/shared-womens-mens/clothing/t-shirts/embossed-rose-unisex-tee__9211140571299__02__51488144457891.jpg",
-      "sha256": "3ebe5f5752bd7d931c6a6f677d1b0f1627767fe6b2e3215fdcdce051fa782615"
+      "sha256": "3ebe5f5752bd7d931c6a6f677d1b0f1627767fe6b2e3215fdcdce051fa782615",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/stripe-knit-dark.jpg",
       "source_product": "Jeremy Polo in Dark",
       "source_url": "https://drunkdadinthelobby.com/products/jeremy-polo-in-dark",
       "source_image": "images/shared-womens-mens/clothing/polos/jeremy-polo-in-dark__9103420096675__01__48547948953763.jpg",
-      "sha256": "f122218ecedfd1b4a645df97653fcbab26b45ea6b89b6f5c1d98521faac9be4f"
+      "sha256": "f122218ecedfd1b4a645df97653fcbab26b45ea6b89b6f5c1d98521faac9be4f",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/stripe-knit-light.jpg",
       "source_product": "Jeremy Polo in Light",
       "source_url": "https://drunkdadinthelobby.com/products/jeremy-polo-in-light",
       "source_image": "images/shared-womens-mens/clothing/polos/jeremy-polo-in-light__9103419637923__01__48547922116771.jpg",
-      "sha256": "4e5fb8ff77e793c520a786720657858d3588d24209c612519bea14b8861d2969"
+      "sha256": "4e5fb8ff77e793c520a786720657858d3588d24209c612519bea14b8861d2969",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/stripe-knit-alternate.jpg",
       "source_product": "Jeremy Polo in Dark",
       "source_url": "https://drunkdadinthelobby.com/products/jeremy-polo-in-dark",
       "source_image": "images/shared-womens-mens/clothing/polos/jeremy-polo-in-dark__9103420096675__03__48547948822691.jpg",
-      "sha256": "71b7061fcc0e2019ab0a4d689745050da7cca2fafd47a5883e2e87d2a0f84dd5"
+      "sha256": "71b7061fcc0e2019ab0a4d689745050da7cca2fafd47a5883e2e87d2a0f84dd5",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/zip-jacket-espresso.jpg",
       "source_product": "Roberto Suede Zip Jacket in Espresso",
       "source_url": "https://drunkdadinthelobby.com/products/roberto-suede-zip-jacket-in-espresso",
       "source_image": "images/shared-womens-mens/clothing/jackets/roberto-suede-zip-jacket-in-espresso__9211138015395__01__51482665418915.jpg",
-      "sha256": "75dd502c48e40287736c7ffd36ad4ecd4263bc39c023e447fc14c56ed00cce14"
+      "sha256": "75dd502c48e40287736c7ffd36ad4ecd4263bc39c023e447fc14c56ed00cce14",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/zip-jacket-marble.jpg",
       "source_product": "Roberto Suede Zip Jacket in Marble",
       "source_url": "https://drunkdadinthelobby.com/products/roberto-suede-zip-jacket-in-marble",
       "source_image": "images/shared-womens-mens/clothing/jackets/roberto-suede-zip-jacket-in-marble__9211137458339__01__51482662600867.jpg",
-      "sha256": "e1622a0619cad896a9922066efd141ea7b477e5a940fd27a99bcba1fe59759cf"
+      "sha256": "e1622a0619cad896a9922066efd141ea7b477e5a940fd27a99bcba1fe59759cf",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/zip-jacket-alternate.jpg",
       "source_product": "Roberto Suede Zip Jacket in Espresso",
       "source_url": "https://drunkdadinthelobby.com/products/roberto-suede-zip-jacket-in-espresso",
       "source_image": "images/shared-womens-mens/clothing/jackets/roberto-suede-zip-jacket-in-espresso__9211138015395__02__51488332710051.jpg",
-      "sha256": "11e370695c01158458e9f80001639a838ef87ea160e519c78938adcf5d3c0373"
+      "sha256": "11e370695c01158458e9f80001639a838ef87ea160e519c78938adcf5d3c0373",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/pleat-henley-charcoal.jpg",
       "source_product": "Pleated Henley Unisex Top",
       "source_url": "https://drunkdadinthelobby.com/products/pleated-henly-unisex-top",
       "source_image": "images/shared-womens-mens/clothing/tops/pleated-henly-unisex-top__9211140178083__01__51481088852131.jpg",
-      "sha256": "b07bf3d5c69cfc7dea1b66e329339bcfb08fc1ed7b24d7c5b9eec1c395c78721"
+      "sha256": "b07bf3d5c69cfc7dea1b66e329339bcfb08fc1ed7b24d7c5b9eec1c395c78721",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/pleat-henley-alternate.jpg",
       "source_product": "Pleated Henley Unisex Top",
       "source_url": "https://drunkdadinthelobby.com/products/pleated-henly-unisex-top",
       "source_image": "images/shared-womens-mens/clothing/tops/pleated-henly-unisex-top__9211140178083__02__51488169492643.jpg",
-      "sha256": "8e71c51f6658545f82002b2e1a90cc9175260cf492ab2af6ac6bf9d5443a2645"
+      "sha256": "8e71c51f6658545f82002b2e1a90cc9175260cf492ab2af6ac6bf9d5443a2645",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/breeze-pant-espresso.jpg",
       "source_product": "Pleated Hem Capri Pants",
       "source_url": "https://drunkdadinthelobby.com/products/pleated-hem-capri-pants",
       "source_image": "images/womens/clothing/pants-and-trousers/pleated-hem-capri-pants__9211150336163__01__51481446940835.jpg",
-      "sha256": "58e51e423301858968f28f4a6ac5704f3a4cc1265534c8bb04237d54b63250c9"
+      "sha256": "58e51e423301858968f28f4a6ac5704f3a4cc1265534c8bb04237d54b63250c9",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/breeze-pant-alternate.jpg",
       "source_product": "Pleated Hem Capri Pants",
       "source_url": "https://drunkdadinthelobby.com/products/pleated-hem-capri-pants",
       "source_image": "images/womens/clothing/pants-and-trousers/pleated-hem-capri-pants__9211150336163__02__51487656116387.jpg",
-      "sha256": "bfc7916ca694338088c5e5bdbdf4669a180a906f9c3ff024c0badddd2a4c915c"
+      "sha256": "bfc7916ca694338088c5e5bdbdf4669a180a906f9c3ff024c0badddd2a4c915c",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/wrap-skirt-black.jpg",
       "source_product": "Ramona Maxi Skirt in Black",
       "source_url": "https://drunkdadinthelobby.com/products/ramona-maxi-wrap-skirt-in-black",
       "source_image": "images/womens/clothing/skirts/ramona-maxi-wrap-skirt-in-black__9211136737443__01__51480879300771.jpg",
-      "sha256": "779e4b15c482694eadd696d886bf149ed4fd6036f1697bd4aff184bbce6b3ff1"
+      "sha256": "779e4b15c482694eadd696d886bf149ed4fd6036f1697bd4aff184bbce6b3ff1",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/wrap-skirt-white.jpg",
       "source_product": "Ramona Maxi Skirt in White",
       "source_url": "https://drunkdadinthelobby.com/products/ramona-maxi-wrap-skirt-in-white",
       "source_image": "images/womens/clothing/skirts/ramona-maxi-wrap-skirt-in-white__9211136671907__01__51480845385891.jpg",
-      "sha256": "32aacffe4e76142c63a4595b5fdbae7c189c30b9914233eb4768c927afe520ba"
+      "sha256": "32aacffe4e76142c63a4595b5fdbae7c189c30b9914233eb4768c927afe520ba",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/wrap-skirt-alternate.jpg",
       "source_product": "Ramona Maxi Skirt in Black",
       "source_url": "https://drunkdadinthelobby.com/products/ramona-maxi-wrap-skirt-in-black",
       "source_image": "images/womens/clothing/skirts/ramona-maxi-wrap-skirt-in-black__9211136737443__03__51488392085667.jpg",
-      "sha256": "1935dc333d7e4d60707fa4fcc2a095d88e43d631ac3c2451d33ba6cc4a85986b"
+      "sha256": "1935dc333d7e4d60707fa4fcc2a095d88e43d631ac3c2451d33ba6cc4a85986b",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/suede-skirt-tan.jpg",
       "source_product": "Paneled Suede Skirt in Tan",
       "source_url": "https://drunkdadinthelobby.com/products/paneled-suede-skirt-in-tan",
       "source_image": "images/womens/clothing/skirts/paneled-suede-skirt-in-tan__9211134509219__01__51480718901411.jpg",
-      "sha256": "8714ecb665233cf2c38825552bd165197da2ffdf7b8cb5a6328e2d5754543a0f"
+      "sha256": "8714ecb665233cf2c38825552bd165197da2ffdf7b8cb5a6328e2d5754543a0f",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/suede-skirt-bone.jpg",
       "source_product": "Paneled Suede Skirt in Bone",
       "source_url": "https://drunkdadinthelobby.com/products/paneled-suede-skirt-in-bone",
       "source_image": "images/womens/clothing/skirts/paneled-suede-skirt-in-bone__9211134476451__01__51480676860067.jpg",
-      "sha256": "b8abd97548cf7e6f3c5a90402b2ff9557afa36f5d102a15586bd73effe9395e6"
+      "sha256": "b8abd97548cf7e6f3c5a90402b2ff9557afa36f5d102a15586bd73effe9395e6",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/suede-skirt-alternate.jpg",
       "source_product": "Paneled Suede Skirt in Tan",
       "source_url": "https://drunkdadinthelobby.com/products/paneled-suede-skirt-in-tan",
       "source_image": "images/womens/clothing/skirts/paneled-suede-skirt-in-tan__9211134509219__02__51488597180579.jpg",
-      "sha256": "a7a373e134374f53cea742d7f31a35a986526f48e855afce51d55ebc92a5ba12"
+      "sha256": "a7a373e134374f53cea742d7f31a35a986526f48e855afce51d55ebc92a5ba12",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/drift-shorts-black.jpg",
       "source_product": "Dario Shorts",
       "source_url": "https://drunkdadinthelobby.com/products/dario-shorts",
       "source_image": "images/shared-womens-mens/clothing/shorts-and-jorts/dario-shorts__9117008265379__01__49401540739235.jpg",
-      "sha256": "2569729f2fd6f268c20642ea58e05479ab85fd85d16720a5977a4f8c86e69362"
+      "sha256": "2569729f2fd6f268c20642ea58e05479ab85fd85d16720a5977a4f8c86e69362",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/drift-shorts-alternate.jpg",
       "source_product": "Dario Shorts",
       "source_url": "https://drunkdadinthelobby.com/products/dario-shorts",
       "source_image": "images/shared-womens-mens/clothing/shorts-and-jorts/dario-shorts__9117008265379__02__49401669845155.jpg",
-      "sha256": "e762cc2b3b458d067edcb824db8a66d4687c169064e49a78571c0bd06a97142b"
+      "sha256": "e762cc2b3b458d067edcb824db8a66d4687c169064e49a78571c0bd06a97142b",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/dot-tank-black.jpg",
       "source_product": "Daisy Top in Black",
       "source_url": "https://drunkdadinthelobby.com/products/daisy-top-in-black",
       "source_image": "images/womens/clothing/tops/daisy-top-in-black__9253510774947__01__52723029180579.jpg",
-      "sha256": "7f90026d616698faa532104aceb6e0782cea4ad75961cfbaf0240d629e91a2db"
+      "sha256": "7f90026d616698faa532104aceb6e0782cea4ad75961cfbaf0240d629e91a2db",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/dot-tank-blue.jpg",
       "source_product": "Daisy Top in Blue",
       "source_url": "https://drunkdadinthelobby.com/products/daisy-top",
       "source_image": "images/womens/clothing/tops/daisy-top__9103397552291__01__50625438220451.jpg",
-      "sha256": "a0d514c7d5c504b8232179a59c0926e3b8b7eefdb0e5b6576ff5b7e2e26f6cd3"
+      "sha256": "a0d514c7d5c504b8232179a59c0926e3b8b7eefdb0e5b6576ff5b7e2e26f6cd3",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/dot-tank-alternate.jpg",
       "source_product": "Daisy Top in Black",
       "source_url": "https://drunkdadinthelobby.com/products/daisy-top-in-black",
       "source_image": "images/womens/clothing/tops/daisy-top-in-black__9253510774947__02__54922585145507.jpg",
-      "sha256": "40f44a127585cc4a64033d4cfff5e3a80fc5e46f2c7a596f264ed0a238c56924"
+      "sha256": "40f44a127585cc4a64033d4cfff5e3a80fc5e46f2c7a596f264ed0a238c56924",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/tie-top-dark.jpg",
       "source_product": "Lune Top in Dark",
       "source_url": "https://drunkdadinthelobby.com/products/lune-top-in-dark",
       "source_image": "images/womens/clothing/tops/lune-top-in-dark__9211152466083__01__51481599115427.jpg",
-      "sha256": "7d3aec4b8667c337193ac02d1efe4a6a8121a9d3e06f12917cd947c441f3ee66"
+      "sha256": "7d3aec4b8667c337193ac02d1efe4a6a8121a9d3e06f12917cd947c441f3ee66",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/tie-top-sorbet.jpg",
       "source_product": "Lune Top in Sorbet",
       "source_url": "https://drunkdadinthelobby.com/products/lune-top-in-grey-copy",
       "source_image": "images/womens/clothing/tops/lune-top-in-grey-copy__9211152433315__01__51481584271523.jpg",
-      "sha256": "50167bb88a28716e0c97ebc6807681b54ec3e488b645f9249721c2215c09390e"
+      "sha256": "50167bb88a28716e0c97ebc6807681b54ec3e488b645f9249721c2215c09390e",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/tie-top-grey.jpg",
       "source_product": "Lune Top in Grey",
       "source_url": "https://drunkdadinthelobby.com/products/lune-top-in-grey",
       "source_image": "images/womens/clothing/tops/lune-top-in-grey__9211150893219__01__51481487114403.jpg",
-      "sha256": "311c81451338415137d97c49c16d3871eee3cc249b9eba99fb7f9a0dd9a687a8"
+      "sha256": "311c81451338415137d97c49c16d3871eee3cc249b9eba99fb7f9a0dd9a687a8",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/tie-top-alternate.jpg",
       "source_product": "Lune Top in Dark",
       "source_url": "https://drunkdadinthelobby.com/products/lune-top-in-dark",
       "source_image": "images/womens/clothing/tops/lune-top-in-dark__9211152466083__02__51487656083619.jpg",
-      "sha256": "a7a373e134374f53cea742d7f31a35a986526f48e855afce51d55ebc92a5ba12"
+      "sha256": "a7a373e134374f53cea742d7f31a35a986526f48e855afce51d55ebc92a5ba12",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/sheer-dress-black.jpg",
       "source_product": "Paula Sheer Dress",
       "source_url": "https://drunkdadinthelobby.com/products/paula-sheer-dress",
       "source_image": "images/womens/clothing/dresses/paula-sheer-dress__9211134017699__01__51480617320611.jpg",
-      "sha256": "9e8341cadafeb7080e7316d2156cbf872a4623b6e6a30494ad2f5e763d27f807"
+      "sha256": "9e8341cadafeb7080e7316d2156cbf872a4623b6e6a30494ad2f5e763d27f807",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/sheer-dress-alternate.jpg",
       "source_product": "Paula Sheer Dress",
       "source_url": "https://drunkdadinthelobby.com/products/paula-sheer-dress",
       "source_image": "images/womens/clothing/dresses/paula-sheer-dress__9211134017699__02__51488605831331.jpg",
-      "sha256": "3cc669a94c5c2856d28f736d0ba2c6a25cc21d3a670d5fa4f2d25436e503d0de"
+      "sha256": "3cc669a94c5c2856d28f736d0ba2c6a25cc21d3a670d5fa4f2d25436e503d0de",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/air-shirt-detail.jpg",
       "source_product": "Fish Shirt in Blue",
       "source_url": "https://drunkdadinthelobby.com/products/fish-shirt-in-blue",
       "source_image": "images/shared-womens-mens/clothing/shirts/fish-shirt-in-blue__9005393838243__03__49633012285603.jpg",
-      "sha256": "d1625da6b29b4ab1fa9eb37b73b82853d058606c958874afd590724ff47233a6"
+      "sha256": "d1625da6b29b4ab1fa9eb37b73b82853d058606c958874afd590724ff47233a6",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/air-shirt-styled.jpg",
       "source_product": "Fish Shirt in White",
       "source_url": "https://drunkdadinthelobby.com/products/fish-shirt-in-white",
       "source_image": "images/shared-womens-mens/clothing/shirts/fish-shirt-in-white__9005394952355__04__45092773429411.jpg",
-      "sha256": "614daa7d865819da7da97ebfd2ae8827a34ccb05f4209ca4dc93b96c569ba287"
+      "sha256": "614daa7d865819da7da97ebfd2ae8827a34ccb05f4209ca4dc93b96c569ba287",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
     },
     {
       "file": "images/catalog/breeze-pant-detail.jpg",
       "source_product": "Pleated Hem Capri Pants",
       "source_url": "https://drunkdadinthelobby.com/products/pleated-hem-capri-pants",
       "source_image": "images/womens/clothing/pants-and-trousers/pleated-hem-capri-pants__9211150336163__04__51481446875299.jpg",
-      "sha256": "4ebe96dd4d45fa7b97e4e2a9799e3465ad1c7e188713870ad1bbbb9acfbe7b91"
+      "sha256": "4ebe96dd4d45fa7b97e4e2a9799e3465ad1c7e188713870ad1bbbb9acfbe7b91",
+      "source_collections": [
+        "womens"
+      ]
     },
     {
       "file": "images/catalog/breeze-pant-back.jpg",
       "source_product": "Pleated Hem Capri Pants",
       "source_url": "https://drunkdadinthelobby.com/products/pleated-hem-capri-pants",
       "source_image": "images/womens/clothing/pants-and-trousers/pleated-hem-capri-pants__9211150336163__03__51481446908067.jpg",
-      "sha256": "8066e09fba9323e5845fd13f1328d03c6fde63c9b112c44503fb05289d772733"
+      "sha256": "8066e09fba9323e5845fd13f1328d03c6fde63c9b112c44503fb05289d772733",
+      "source_collections": [
+        "womens"
+      ]
+    },
+    {
+      "file": "images/catalog/rose-tee-detail.jpg",
+      "source_product": "Embossed Rose Unisex Tee",
+      "source_url": "https://drunkdadinthelobby.com/products/embossed-rose-unisex-tee",
+      "source_image": "images/shared-womens-mens/clothing/t-shirts/embossed-rose-unisex-tee__9211140571299__03__51481131974819.jpg",
+      "sha256": "a666d8dea3703a27a6c0f97827527322948a733731fe4d923453c4035051a008",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
+    },
+    {
+      "file": "images/catalog/stripe-knit-back.jpg",
+      "source_product": "Jeremy Polo in Dark",
+      "source_url": "https://drunkdadinthelobby.com/products/jeremy-polo-in-dark",
+      "source_image": "images/shared-womens-mens/clothing/polos/jeremy-polo-in-dark__9103420096675__04__48547948920995.jpg",
+      "sha256": "fe1c78d5ec3643f9310317ed3b3cf4fa03d466f4ed5da94021954e94aed6f49a",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
+    },
+    {
+      "file": "images/catalog/zip-jacket-detail.jpg",
+      "source_product": "Roberto Suede Zip Jacket in Espresso",
+      "source_url": "https://drunkdadinthelobby.com/products/roberto-suede-zip-jacket-in-espresso",
+      "source_image": "images/shared-womens-mens/clothing/jackets/roberto-suede-zip-jacket-in-espresso__9211138015395__05__51482665353379.jpg",
+      "sha256": "aedcb39307fdd5ce37144498a1a42fbad859f8113287a1ba2a5c788fc1de0d4e",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
+    },
+    {
+      "file": "images/catalog/zip-jacket-womens-styling.jpg",
+      "source_product": "Roberto Suede Zip Jacket in Espresso",
+      "source_url": "https://drunkdadinthelobby.com/products/roberto-suede-zip-jacket-in-espresso",
+      "source_image": "images/shared-womens-mens/clothing/jackets/roberto-suede-zip-jacket-in-espresso__9211138015395__04__51488356532387.jpg",
+      "sha256": "9439ec9bd80523f6a6c8207f51a00cf1176f07b1611de1509516a8dd8eb14bbe",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
+    },
+    {
+      "file": "images/catalog/pleat-henley-detail.jpg",
+      "source_product": "Pleated Henley Unisex Top",
+      "source_url": "https://drunkdadinthelobby.com/products/pleated-henly-unisex-top",
+      "source_image": "images/shared-womens-mens/clothing/tops/pleated-henly-unisex-top__9211140178083__03__51481088786595.jpg",
+      "sha256": "b8034b6584dc69dd17d26c12de720ad73582b155a531dae44be0fa5893eeb71d",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
+    },
+    {
+      "file": "images/catalog/drift-shorts-back.jpg",
+      "source_product": "Dario Shorts",
+      "source_url": "https://drunkdadinthelobby.com/products/dario-shorts",
+      "source_image": "images/shared-womens-mens/clothing/shorts-and-jorts/dario-shorts__9117008265379__04__49401540706467.jpg",
+      "sha256": "862854aaf96d110e5aedea7d7aa0f783884c96a4a39704344bea05b6affa5132",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
+    },
+    {
+      "file": "images/catalog/air-shirt-white-back.jpg",
+      "source_product": "Fish Shirt in White",
+      "source_url": "https://drunkdadinthelobby.com/products/fish-shirt-in-white",
+      "source_image": "images/shared-womens-mens/clothing/shirts/fish-shirt-in-white__9005394952355__05__45092773298339.jpg",
+      "sha256": "9abebc633a1eeddbce7ffc34c3f37f22b0283070d5e8981fdd56a205692a085e",
+      "source_collections": [
+        "womens",
+        "mens"
+      ]
+    }
+  ],
+  "collection_policy": "Product membership follows the supplied archive collections. Items listed in both collections are labelled Unisex. Shared product grids use product-only alternate photos; dedicated collection pages use appropriate styling photos when available.",
+  "catalogue_products": [
+    {
+      "name": "The Air Shirt",
+      "category": "t-tops",
+      "collections": [
+        "womens",
+        "mens"
+      ],
+      "source_handle": "fish-shirt-in-blue",
+      "primary_image": "images/catalog/air-shirt-blue.jpg"
+    },
+    {
+      "name": "The Breeze Pant",
+      "category": "t-bottoms",
+      "collections": [
+        "womens"
+      ],
+      "source_handle": "pleated-hem-capri-pants",
+      "primary_image": "images/catalog/breeze-pant-espresso.jpg"
+    },
+    {
+      "name": "Rose Wash Tee",
+      "category": "t-tops",
+      "collections": [
+        "womens",
+        "mens"
+      ],
+      "source_handle": "embossed-rose-unisex-tee",
+      "primary_image": "images/catalog/rose-tee-black.jpg"
+    },
+    {
+      "name": "Stripe Knit Polo",
+      "category": "t-tops",
+      "collections": [
+        "womens",
+        "mens"
+      ],
+      "source_handle": "jeremy-polo-in-dark",
+      "primary_image": "images/catalog/stripe-knit-dark.jpg"
+    },
+    {
+      "name": "Dot Lace Tank",
+      "category": "t-tops",
+      "collections": [
+        "womens"
+      ],
+      "source_handle": "daisy-top-in-black",
+      "primary_image": "images/catalog/dot-tank-black.jpg"
+    },
+    {
+      "name": "Off-Shoulder Tie Top",
+      "category": "t-tops",
+      "collections": [
+        "womens"
+      ],
+      "source_handle": "lune-top-in-dark",
+      "primary_image": "images/catalog/tie-top-dark.jpg"
+    },
+    {
+      "name": "Pleat Sheer Dress",
+      "category": "t-dresses",
+      "collections": [
+        "womens"
+      ],
+      "source_handle": "paula-sheer-dress",
+      "primary_image": "images/catalog/sheer-dress-black.jpg"
+    },
+    {
+      "name": "Wrap Maxi Skirt",
+      "category": "t-bottoms",
+      "collections": [
+        "womens"
+      ],
+      "source_handle": "ramona-maxi-wrap-skirt-in-black",
+      "primary_image": "images/catalog/wrap-skirt-black.jpg"
+    },
+    {
+      "name": "Suede Panel Skirt",
+      "category": "t-bottoms",
+      "collections": [
+        "womens"
+      ],
+      "source_handle": "paneled-suede-skirt-in-tan",
+      "primary_image": "images/catalog/suede-skirt-tan.jpg"
+    },
+    {
+      "name": "Suede Zip Jacket",
+      "category": "t-outer",
+      "collections": [
+        "womens",
+        "mens"
+      ],
+      "source_handle": "roberto-suede-zip-jacket-in-espresso",
+      "primary_image": "images/catalog/zip-jacket-espresso.jpg"
+    },
+    {
+      "name": "Pleat Henley Top",
+      "category": "t-tops",
+      "collections": [
+        "womens",
+        "mens"
+      ],
+      "source_handle": "pleated-henly-unisex-top",
+      "primary_image": "images/catalog/pleat-henley-charcoal.jpg"
+    },
+    {
+      "name": "Drift Shorts",
+      "category": "t-bottoms",
+      "collections": [
+        "womens",
+        "mens"
+      ],
+      "source_handle": "dario-shorts",
+      "primary_image": "images/catalog/drift-shorts-black.jpg"
     }
   ]
 }
