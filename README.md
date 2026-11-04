@@ -12,7 +12,7 @@ Student project by **Studio Empat** (4 members). A sales website for TEDUH, a fi
 | About | about.html, contact.html, team.html |
 | Help | faq.html, shipping.html |
 | CTA | get-15-off.html (voucher form + PDPA consent) |
-| Extra | privacy.html |
+| Extra | privacy.html, 404.html (shown by GitHub Pages for broken links) |
 
 ## The collection (Drop 03, street style)
 
