@@ -1,5 +1,5 @@
 /* =========================================================
-   TEDUH: street-style basics, dressed for the heat
+   TEEDUH: street-style basics, dressed for the heat
    Shared stylesheet for every page (HTML + CSS only)
    Layout and look follow the Hanzify "Lite 001" reference:
    black marquee, clear header with a Collections mega menu,
@@ -653,9 +653,9 @@ h4 { font-family: var(--archivo); font-size: 11px; font-weight: 600; letter-spac
 }
 .jr__right { right: 0; transform-origin: left center; background-image: var(--grain), linear-gradient(to left, rgba(0, 0, 0, .28), transparent 22%, transparent 78%, rgba(0, 0, 0, .3) 96%, rgba(0, 0, 0, .5)); }
 .jr__right::after { left: 0; background-position: 0 6px; }
-/* the TEDUH chest mark, split across both halves */
+/* the TEEDUH chest mark, split across both halves */
 .jr__right::before {
-  content: "TEDUH" / ""; position: absolute; top: 24%; left: 9%;
+  content: "TEEDUH" / ""; position: absolute; top: 24%; left: 9%;
   font: 800 13px/1 var(--archivo); letter-spacing: .3em; color: rgba(255, 255, 255, .28);
 }
 .jr__about { position: absolute; top: 50%; left: 50%; z-index: 5; transform: translate(-50%, -50%); width: min(85%, 900px); text-align: center; opacity: 0; }
@@ -785,8 +785,8 @@ h4 { font-family: var(--archivo); font-size: 11px; font-weight: 600; letter-spac
 .nf .nf__copy { margin-bottom: 6px; }
 /* oversized wordmark that closes every page */
 .nf::after {
-  content: "TEDUH" / ""; display: block; margin: 28px 0 0 -.03em;
-  font: 800 min(calc((100vw - var(--pad) * 2) / 3.36), 600px)/.74 var(--archivo); letter-spacing: -.085em; color: var(--ink);
+  content: "TEEDUH" / ""; display: block; margin: 28px 0 0 -.03em;
+  font: 800 min(calc((100vw - var(--pad) * 2) / 4), 505px)/.74 var(--archivo); letter-spacing: -.085em; color: var(--ink);
   white-space: nowrap; pointer-events: none; user-select: none;
 }
 .nf__legal { display: flex; flex-wrap: wrap; gap: 4px 24px; }
@@ -1031,6 +1031,16 @@ section { padding: clamp(56px, 7vw, 96px) 0; }
 .split img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--wash); }
 /* heading block + a single button: keep the button on the text's bottom line, at the right edge */
 .split--action { align-items: end; }
+/* Photo + text rows: keep the photo to about two-thirds of the screen height,
+   so its heading and description are visible next to it */
+.split:has(> img:first-child) { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
+.split:has(> img:first-child) > img, .feature-post > img {
+  width: auto; max-width: 100%; max-height: min(68vh, 580px); justify-self: center;
+}
+/* Second part of a merged page (e.g. the style guide inside the lookbook) */
+.sub-hero { padding-bottom: clamp(28px, 4vw, 48px); border-top: 1px solid var(--line); scroll-margin-top: var(--header-h); }
+.sub-hero h2 { font-size: clamp(36px, 5vw, 72px); }
+.sub-hero .lead { margin-top: 16px; }
 .split--action > :last-child { justify-self: end; }
 @media (max-width: 880px) { .split--action > :last-child { justify-self: start; } }
 .checklist { list-style: none; padding: 0; margin: 1.5rem 0; }
@@ -1249,7 +1259,8 @@ fieldset { border: 0; padding: 0; margin: 0 0 18px; }
   .carousel { grid-auto-columns: calc((100% - 16px) / 2.3); }
 }
 @media (max-width: 880px) {
-  .split, .cta-band, .feature-post { grid-template-columns: 1fr; }
+  .split, .cta-band, .feature-post, .split:has(> img:first-child) { grid-template-columns: 1fr; }
+  .split:has(> img:first-child) > img, .feature-post > img { max-height: 52vh; }
   .split.reverse > :first-child { order: 0; }
   .cta-band .btn-row { justify-content: flex-start; }
   .grid-3, .steps, .stat-grid { grid-template-columns: 1fr; }

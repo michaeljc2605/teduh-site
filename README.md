@@ -1,16 +1,19 @@
-# TEDUH — Dressed for the heat
+# TEEDUH — Dressed for the heat
 
-Student project by **Studio Empat** (4 members). A sales website for TEDUH, a fictional Singapore street-style label sold on Shopee and Lazada. The site is built with HTML and CSS only (no JavaScript).
+Student project by **Studio Empat** (4 members). A sales website for TEEDUH, a fictional Singapore street-style label sold on Shopee and Lazada. The site is built with HTML and CSS only (no JavaScript).
 
-## Pages (20 + Privacy Policy)
+## Pages (15 main pages + 12 product pages)
+
+After professor feedback the site was cut from 19 to 15 main pages so the menus are simpler: the style guide now lives in the Lookbook (`lookbook.html#style-guide`), sustainability in Fabric (`fabric.html#sustainability`), shipping and returns in the FAQ (`faq.html#delivery-returns`), and New arrivals links go to Shop.
 
 | Menu | Pages |
 | --- | --- |
 | Home | index.html |
-| Shop | shop.html, women.html, men.html, new.html, air-shirt.html, breeze-pant.html, size-guide.html |
-| Discover | lookbook.html, fabric.html, style-guide.html, journal.html, sustainability.html, community.html |
+| Shop | shop.html, women.html, men.html, size-guide.html |
+| Products | air-shirt.html, breeze-pant.html, rose-tee.html, stripe-knit.html, dot-tank.html, tie-top.html, sheer-dress.html, wrap-skirt.html, suede-skirt.html, zip-jacket.html, pleat-henley.html, drift-shorts.html |
+| Discover | lookbook.html (with style guide), fabric.html (with sustainability), journal.html, community.html |
 | About | about.html, contact.html, team.html |
-| Help | faq.html, shipping.html |
+| Help | faq.html (with shipping & returns) |
 | CTA | get-15-off.html (voucher form + PDPA consent) |
 | Extra | privacy.html, 404.html (shown by GitHub Pages for broken links) |
 
@@ -51,10 +54,10 @@ Student project by **Studio Empat** (4 members). A sales website for TEDUH, a fi
 4. **Fabric page**: the comparison bars are illustrative. Replace them with your own test results.
 
 ## Publish on GitHub Pages
-1. Create a new public repository on GitHub, for example `teduh`.
+1. Create a new public repository on GitHub, for example `teeduh`.
 2. Upload every file and folder from this zip, so that `index.html` sits at the top level.
 3. Go to **Settings → Pages**, set Source to "Deploy from a branch", pick `main` and `/ (root)`, then click Save.
-4. After a minute or two, the site is live at `https://<your-username>.github.io/teduh/`.
+4. After a minute or two, the site is live at `https://<your-username>.github.io/teeduh/`.
 
 ## Design system
 - Layout and look follow the Hanzify "Lite 001" Shopify theme (used as a temporary design reference)
