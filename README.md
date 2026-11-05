@@ -43,13 +43,12 @@ Student project by **Studio Empat** (4 members). A sales website for TEDUH, a fi
 - Size-guide tabs, FAQ accordion (`<details>`), lookbook hover reveal, dismissible cookie notice
 
 ## Before you submit
-1. **team.html**: replace the group number, tutorial group, names and emails.
-2. **Forms**: create a free form at https://formspree.io and replace `your-form-id` in `get-15-off.html` and `contact.html`.
-3. **Store links**: replace `https://shopee.sg/` and `https://www.lazada.sg/` with your product's real listing URLs (keep the `?utm_...` part for tracking).
-4. **Photos**: catalogue cards, hover images, product galleries, homepage product slides, and collection-menu photos use the supplied Drunk Dad images in `images/catalog/`. `images/catalog/source-map.json` records each original product, image, and source collection. Women and Men pages follow those collection labels; shared pieces are marked Unisex, with collection-appropriate or product-only alternate photos.
+1. **Forms**: create a free form at https://formspree.io and replace `your-form-id` in `get-15-off.html` and `contact.html`.
+2. **Store links**: replace `https://shopee.sg/` and `https://www.lazada.sg/` with your product's real listing URLs (keep the `?utm_...` part for tracking).
+3. **Photos**: catalogue cards, hover images, product galleries, homepage product slides, and collection-menu photos use the supplied Drunk Dad images in `images/catalog/`. `images/catalog/source-map.json` records each original product, image, and source collection. Women and Men pages follow those collection labels; shared pieces are marked Unisex, with collection-appropriate or product-only alternate photos.
    The ten supplied AI-generated styling concepts in `images/instagram/` (optimized as WebP, same dimensions and framing; sources in `images/instagram/source-map.json`) are used for the Instagram strips, the community gallery, the home hero (three photos side by side), the photos inside the jacket reveal, the lookbook, the style guide, the journal, and the About and Sustainability pages. The Fabric page uses the Air Shirt close-up from `images/catalog/`.
    The jacket fronts in the home-page reveal are drawn in CSS (no image files). The old mannequin placeholders (`hero.jpg`, `reveal-*.jpg`, `look-*.jpg`, `journal-*.jpg`, `about-studio.jpg`, `sustainability.jpg`, `fabric-macro.jpg`) are no longer used by any page. To use your own campaign photo somewhere, change the `src` in that page instead.
-5. **Fabric page**: the comparison bars are illustrative. Replace them with your own test results.
+4. **Fabric page**: the comparison bars are illustrative. Replace them with your own test results.
 
 ## Publish on GitHub Pages
 1. Create a new public repository on GitHub, for example `teduh`.
