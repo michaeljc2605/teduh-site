@@ -923,6 +923,57 @@ section { padding: clamp(56px, 7vw, 96px) 0; }
 .cat:has(#o-high:checked) .chip-high { display: inline-flex; }
 .cat-input:focus-visible ~ .cat__bar { outline: 2px solid var(--focus); outline-offset: -2px; }
 
+/* Featured product: a double-width card (photo + pitch panel) at the start of the grid.
+   Same height as its neighbours, so it leads without swallowing the screen.
+   Only in the default "New in" order and the large/medium views; otherwise it is a normal card. */
+.spc__hero-img, .spc__feature { display: none; }
+.cat:not(:has(#o-low:checked, #o-high:checked, #v-s:checked)) .cat__item--hero { grid-column: span 2; }
+.cat:not(:has(#o-low:checked, #o-high:checked, #v-s:checked)) .cat__item--hero .spc__media {
+  container: hero / inline-size; aspect-ratio: auto;
+  display: grid; grid-template-columns: calc((100% - var(--gap)) / 2) 1fr;
+  background: #3e302b; /* espresso, from the Breeze Pant */
+}
+/* Left cell sets the height: exactly one normal card image */
+.cat:not(:has(#o-low:checked, #o-high:checked, #v-s:checked)) .cat__item--hero .spc__media::before { content: ""; grid-area: 1 / 1; aspect-ratio: var(--cat-ratio, 4 / 5); }
+.cat:not(:has(#o-low:checked, #o-high:checked, #v-s:checked)) .cat__item--hero :is(.spc__img, .spc__dots) { display: none; }
+.cat:not(:has(#o-low:checked, #o-high:checked, #v-s:checked)) .cat__item--hero .spc__hero-img {
+  display: block; position: absolute; left: 0; top: 0; width: calc((100% - var(--gap)) / 2); height: 100%;
+  object-fit: cover; object-position: 50% 30%;
+}
+.cat:not(:has(#o-low:checked, #o-high:checked, #v-s:checked)) .cat__item--hero .spc__feature {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 12px;
+  grid-area: 1 / 2; position: relative; z-index: 2;
+  padding: clamp(18px, 4.5cqi, 44px); color: var(--white); pointer-events: none;
+}
+.cat:not(:has(#o-low:checked, #o-high:checked, #v-s:checked)) .cat__item--hero .spc__plus { color: var(--white); }
+.spc__feature p { margin: 0; }
+.spc__feature-kicker { font: 500 12px/1.2 var(--inter); letter-spacing: .14em; text-transform: uppercase; color: rgba(255, 255, 255, .75); }
+.spc__feature-title { margin-top: auto !important; color: var(--white); font: 800 clamp(22px, 5.4cqi, 52px)/.95 var(--archivo); letter-spacing: -.05em; text-wrap: balance; }
+.spc__feature-copy { max-width: 32ch; font-size: 15px; line-height: 1.45; color: rgba(255, 255, 255, .85); }
+.spc__feature-cta {
+  pointer-events: auto; display: inline-flex; align-items: center; gap: 10px; margin-top: 8px; padding: 14px 24px;
+  background: var(--white); color: var(--ink); font: 500 14px/1.2 var(--inter); text-decoration: none;
+  transition: background .35s var(--ease-io), color .35s var(--ease-io);
+}
+.spc__feature-cta::after { content: "→"; transition: transform .35s var(--ease-io); }
+.spc__feature-cta:hover { background: var(--ink); color: var(--white); }
+.spc__feature-cta:hover::after { transform: translateX(4px); }
+/* Narrow cards (medium view, tablets, phones): trim the pitch to headline + button */
+@container hero (max-width: 620px) { .spc__feature-copy { display: none; } }
+@container hero (max-width: 440px) {
+  .spc__feature-kicker { display: none; }
+  .spc__feature-cta { padding: 11px 16px; font-size: 13px; }
+}
+/* Tiny (phone 2-up): headline only; the whole card still links to the product */
+@container hero (max-width: 380px) { .spc__feature-cta { display: none; } }
+/* Phones in the one-up view: photo on top, pitch panel underneath */
+@media (max-width: 749px) {
+  .cat:has(#v-l:checked):not(:has(#o-low:checked, #o-high:checked)) .cat__item--hero { grid-column: span 1; }
+  .cat:has(#v-l:checked):not(:has(#o-low:checked, #o-high:checked)) .cat__item--hero .spc__media { grid-template-columns: 1fr; }
+  .cat:has(#v-l:checked):not(:has(#o-low:checked, #o-high:checked)) .cat__item--hero .spc__hero-img { width: 100%; height: auto; aspect-ratio: var(--cat-ratio, 4 / 5); }
+  .cat:has(#v-l:checked):not(:has(#o-low:checked, #o-high:checked)) .cat__item--hero .spc__feature { grid-area: 2 / 1; padding-bottom: 56px; }
+}
+
 /* =========================================================
    Product page (gallery 70% / info 30%)
    ========================================================= */
