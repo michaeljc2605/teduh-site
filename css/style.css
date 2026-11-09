@@ -1158,8 +1158,50 @@ th { font-weight: 600; font-size: 12px; color: var(--mute); }
 .more-guides a:hover::after { transform: translateX(4px); }
 .more-guides a .meta { flex: none; width: 190px; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--mute); }
 .more-guides__title { font: 600 clamp(17px, 1.4vw, 20px)/1.25 var(--inter); letter-spacing: -.02em; }
+/* Journal article pages: sticky photo on the left, story on the right */
+.page-hero--article h1 { font-size: clamp(40px, 5.6vw, 84px); max-width: 18ch; }
+section.jstory { padding-top: 0; }
+.jstory__layout { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+.jstory__cover { position: sticky; top: calc(var(--header-h) + 24px); margin: 0; }
+.jstory__cover img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; max-height: calc(100vh - var(--header-h) - 48px); object-fit: cover; object-position: 50% 10%; background: var(--wash); }
+.jstory__main { max-width: 680px; font-size: 17px; line-height: 1.7; color: var(--text); }
+.jstory__body h2 { margin: 44px 0 12px; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.1; letter-spacing: -.035em; }
+.jstory__body > h2:first-child { margin-top: 0; }
+.jstory__body p { margin: 0 0 18px; }
+.jstory__body a:not(.btn) { text-decoration: underline; text-underline-offset: 3px; }
+.jstory__body :is(ul, ol) { margin: 0 0 18px; padding-left: 22px; }
+.jstory__body li { margin-bottom: 8px; }
+.jstory__body aside { margin: 32px 0; padding: 20px 24px; background: var(--soft); border-left: 3px solid var(--ink); }
+.jstory__body aside strong { display: block; margin-bottom: 6px; color: var(--ui); font: 700 15px/1.3 var(--inter); }
+.jstory__body aside p { margin: 0; }
+.jstory__body table { width: 100%; margin: 8px 0 24px; border-collapse: collapse; font-size: 15px; line-height: 1.5; }
+.jstory__body caption { margin-bottom: 8px; text-align: left; color: var(--mute); font-size: 13px; }
+.jstory__body :is(th, td) { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.jstory__body th { color: var(--ui); font-weight: 600; }
+.jstory__back { margin: 40px 0 0; }
+section.jmore { padding-top: 0; }
+.jmore h2 { margin: 0; }
+/* "Shop the edit" / catalogue snapshots: grey tiles like the catalogue cards */
+section.jshop { margin: 40px 0; padding: 28px 0 0; border-top: 1px solid var(--line); }
+.jshop .eyebrow { margin-bottom: 8px; }
+.jshop h2 { margin: 0 0 18px; font: 600 20px/1.2 var(--inter); letter-spacing: -.02em; }
+.jshop__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.jshop__grid figure { margin: 0; min-width: 0; background: var(--tile); isolation: isolate; }
+.jshop__grid img { display: block; width: 100%; aspect-ratio: 4 / 5; padding: 8% 7%; object-fit: contain; mix-blend-mode: multiply; }
+.jshop__grid figcaption { padding: 0 14px 14px; color: var(--ui); font-size: 13px; line-height: 1.45; }
+.jshop__grid figcaption .link { display: inline-block; margin-top: 4px; font-size: 13px; text-decoration: none; }
+.jshop__grid figcaption .link:hover { text-decoration: underline; opacity: 1; }
+section.jshop--wide { margin: 72px 0 0; padding-top: 40px; }
+.jshop--wide h2 { font: 800 clamp(30px, 3.6vw, 52px)/.95 var(--archivo); letter-spacing: -.05em; margin-bottom: 24px; }
+.jshop--wide .jshop__grid { grid-template-columns: repeat(3, minmax(0, 280px)); gap: 16px; }
+@media (max-width: 880px) {
+  .jstory__layout { grid-template-columns: 1fr; }
+  .jstory__cover { position: static; }
+  .jstory__cover img { aspect-ratio: 4 / 3; max-height: none; object-position: 50% 12%; }
+}
 @media (max-width: 749px) {
   .post-grid { grid-template-columns: 1fr; }
+  .jshop__grid figcaption { padding: 0 8px 10px; font-size: 12px; }
   .more-guides a { flex-wrap: wrap; gap: 4px 16px; }
   .more-guides a .meta { width: 100%; }
 }
