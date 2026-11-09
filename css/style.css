@@ -1160,8 +1160,11 @@ th { font-weight: 600; font-size: 12px; color: var(--mute); }
 .more-guides__title { font: 600 clamp(17px, 1.4vw, 20px)/1.25 var(--inter); letter-spacing: -.02em; }
 /* Journal article pages: sticky photo on the left, story on the right */
 .page-hero--article h1 { font-size: clamp(40px, 5.6vw, 84px); max-width: 18ch; }
+/* Centre the article in one column so photo and text balance on wide screens */
+section.jstory > .wrap, section.jmore > .wrap { max-width: 1280px; margin-inline: auto; }
+.page-hero--article > .wrap { max-width: calc(1280px - var(--pad) * 2); margin-inline: auto; } /* hero has its padding outside .wrap */
 section.jstory { padding-top: 0; }
-.jstory__layout { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+.jstory__layout { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 5vw, 72px); align-items: start; }
 .jstory__cover { position: sticky; top: calc(var(--header-h) + 24px); margin: 0; }
 .jstory__cover img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; max-height: calc(100vh - var(--header-h) - 48px); object-fit: cover; object-position: 50% 10%; background: var(--wash); }
 .jstory__main { max-width: 680px; font-size: 17px; line-height: 1.7; color: var(--text); }
