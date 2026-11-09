@@ -1140,7 +1140,7 @@ th { font-weight: 600; font-size: 12px; color: var(--mute); }
 .post { display: flex; flex-direction: column; text-decoration: none; }
 .post { color: inherit; }
 /* Landscape, top-anchored crop: half-body shots keep the face in frame and the cards stay short */
-.post img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 12%; background: var(--wash); transition: scale 1.2s var(--ease); }
+.post img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 0%; background: var(--wash); transition: scale 1.2s var(--ease); }
 .post:hover img { scale: 1.02; }
 .post-body { display: flex; flex-direction: column; flex: 1; padding: 16px 2px 0; }
 .post-body .meta { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--mute); }
@@ -1148,7 +1148,7 @@ th { font-weight: 600; font-size: 12px; color: var(--mute); }
 .post-body p { color: var(--mute); font-size: 14px; }
 .post-body .btn { align-self: flex-start; margin-top: auto; }
 .feature-post { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 6vw, 96px); align-items: center; }
-.feature-post > img { width: 100%; max-height: none; aspect-ratio: 5 / 4; object-position: 50% 10%; }
+.feature-post > img { width: 100%; max-height: none; aspect-ratio: 5 / 4; object-position: 50% 0%; }
 .post-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 16px; margin-top: clamp(40px, 5vw, 72px); }
 .more-guides { margin-top: 48px; }
 .more-guides > .meta { margin: 0 0 8px; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--mute); }
