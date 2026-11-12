@@ -1037,31 +1037,14 @@ section { padding: clamp(56px, 7vw, 96px) 0; }
 .pp-cta--ghost { background: var(--white); color: #000; margin-top: .5rem; }
 .pp-cta--ghost:hover { background: #000; color: var(--white); }
 .pp-stock { margin: .6rem 0 0; font-size: 12px; color: #777; text-align: center; }
-/* First-order offer under the buy buttons (CSS only: code reveals once a valid email is typed) */
-.pp-offer { margin-top: .75rem; border: 1px dashed #d92d20; border-radius: 10px; background: #fff6f5; }
-.pp-offer summary { display: flex; align-items: center; gap: 10px; padding: 12px 14px; cursor: pointer; list-style: none; font-size: 14px; color: var(--ink); }
-.pp-offer summary::-webkit-details-marker { display: none; }
-.pp-offer summary::after { content: none; }
+/* First-order offer links to the shared signup form with consent choices. */
+.pp-offer { display: flex; align-items: center; gap: 10px; margin-top: .75rem; padding: 12px 14px; border: 1px dashed #d92d20; border-radius: 10px; background: #fff6f5; font-size: 14px; color: var(--ink); text-decoration: none; }
+.pp-offer:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
 .pp-offer__tag { display: grid; place-items: center; flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%; background: #d92d20; color: var(--white); font: 800 13px/1 var(--archivo); }
 .pp-offer__text { flex: 1; }
 .pp-offer__text strong { font-weight: 700; }
 .pp-offer__chev { transition: transform .25s var(--ease); }
-.pp-offer summary:hover .pp-offer__chev { transform: translateX(3px); }
-.pp-offer[open] .pp-offer__chev { transform: rotate(90deg); }
-.pp-offer__body { padding: 0 14px 14px; }
-.pp-offer__label { display: block; margin-bottom: 6px; font-size: 12px; color: var(--mute); }
-.pp-offer__row { display: flex; gap: 6px; }
-.pp-offer__row input { flex: 1; min-width: 0; height: 42px; padding: 0 12px; border: 1px solid var(--line-2); border-radius: 6px; background: var(--white); font: inherit; font-size: 16px; }
-.pp-offer__row button { flex-shrink: 0; height: 42px; padding: 0 16px; border: 0; border-radius: 6px; background: var(--ink); color: var(--white); font: 600 13px/1 var(--inter); cursor: pointer; }
-.pp-offer__row button:hover { background: #d92d20; }
-.pp-offer__code { display: none; margin-top: 10px; padding: 12px; border-radius: 8px; background: var(--white); text-align: center; }
-.pp-offer__body:has(input[type="email"]:valid) .pp-offer__code { display: block; animation: nheroIn .45s var(--ease) both; }
-.pp-offer__code-label { display: block; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }
-.pp-offer__code code { display: inline-block; margin: 4px 0; padding: 4px 12px; border: 1px dashed var(--ink); border-radius: 6px; font: 800 24px/1.2 var(--archivo); letter-spacing: .08em; color: var(--ink); user-select: all; -webkit-user-select: all; cursor: text; }
-.pp-offer__code small { display: block; font-size: 12px; line-height: 1.4; color: var(--mute); }
-.pp-offer__legal { margin: 8px 0 0; font-size: 11px; line-height: 1.4; color: var(--mute); }
-.pp-offer__legal a { color: inherit; }
-@media (prefers-reduced-motion: reduce) { .pp-offer__body:has(input[type="email"]:valid) .pp-offer__code { animation: none; } }
+.pp-offer:hover .pp-offer__chev { transform: translateX(3px); }
 .pp-stock a { color: inherit; }
 .pp-acc { margin-top: 1.75rem; border-top: 1px solid var(--line); }
 .pp-acc details { border-bottom: 1px solid var(--line); }
