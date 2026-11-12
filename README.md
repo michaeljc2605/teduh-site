@@ -24,7 +24,7 @@ Visitors can browse 12 products, compare colours and sizes, explore outfit ideas
 | Current scope | A storefront prototype with interactive browsing and placeholder external services |
 | Repository | [AeruSeishiro/teduh-site](https://github.com/AeruSeishiro/teduh-site) |
 
-The website does not contain a shopping cart, payment system or stock database. Its proposed purchase journey ends at an external marketplace. The current marketplace links and form connections are placeholders, as explained under [Current project status](#current-project-status).
+This student prototype demonstrates product browsing, styling inspiration and a proposed journey to external marketplaces. Its marketplace links and form connections are placeholders.
 
 ## Take a tour
 
@@ -161,22 +161,6 @@ For an existing checkout, commit or stash any local edits first, then update the
 git switch main
 git pull --ff-only origin main
 ```
-
-## Hosting
-
-At the time of this review, **12 November 2026**, the expected GitHub Pages address returned 404. A working public demo was therefore not confirmed. The local preview instructions above can be used to review the project.
-
-To publish this repository with GitHub Pages, a repository maintainer can open **Settings → Pages**, select **Deploy from a branch**, choose **main** and **/ (root)**, then save. Keep `index.html` at the repository root and verify the published address before adding a Live demo link. These steps follow [GitHub's publishing-source documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-## Current project status
-
-The pages, product browsing controls and visual content are implemented. The following details define what this prototype currently demonstrates:
-
-- **External purchasing:** Shopee and Lazada buttons point to marketplace homepages, not individual product listings. There is no integrated checkout.
-- **Forms:** all 14 forms, including the offers on the 12 product pages, still use a placeholder Formspree endpoint. The product-page code `TEEDUH15` is revealed by a CSS condition after a syntactically valid email is entered; it does not confirm registration or email delivery.
-- **Fictional business content:** prices, offers, limited-stock labels, delivery promises, brand contact details, brand milestones and sustainability commitments belong to the student concept. They do not establish a trading business or actual stock availability.
-- **Material descriptions:** some older copy still conflicts with product details. For example, the catalogue and Fabric page describe the Air Shirt as a linen blend, while its product page specifies cotton poplin. The fabric comparison bars are illustrative.
-- **Care-guide links:** three links in the Fabric and FAQ pages still point to the missing `journal.html#linen` anchor. The article is available at [journal-how-to-wash-linen.html](journal-how-to-wash-linen.html), under the title “How to wash your Air Shirt without ruining it”.
 
 ## Team and credits
 
