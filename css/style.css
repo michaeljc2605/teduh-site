@@ -1189,7 +1189,7 @@ th { font-weight: 600; font-size: 12px; color: var(--mute); }
 .post-body { display: flex; flex-direction: column; flex: 1; padding: 16px 2px 0; }
 .post-body .meta { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--mute); }
 .post-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
-.journal-new { display: inline-flex; flex-shrink: 0; padding: 3px 7px; border: 1px solid var(--line); border-radius: 999px; background: var(--soft); color: var(--mute); font: 500 10px/1 var(--inter); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+.journal-tag { display: inline-flex; flex-shrink: 0; padding: 4px 8px; border: 1px solid #e4ba72; border-radius: 999px; background: #fff0cf; color: #884313; font: 600 10px/1 var(--inter); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
 .post-body h3 { margin: 8px 0; }
 .post-body p { color: var(--mute); font-size: 14px; }
 .post-body .btn { align-self: flex-start; margin-top: auto; }
@@ -1230,8 +1230,8 @@ section.jstory { padding-top: 0; }
 .jstory__back { margin: 40px 0 0; }
 section.jmore { padding-top: 0; }
 .jmore h2 { margin: 0; }
-.jmore__latest { display: flex; align-items: baseline; gap: 10px; margin: 28px 0 0; font: 14px/1.6 var(--inter); }
-.jmore__latest a { text-underline-offset: 3px; }
+.jmore__guide { display: flex; align-items: baseline; gap: 10px; margin: 28px 0 0; font: 14px/1.6 var(--inter); }
+.jmore__guide a { text-underline-offset: 3px; }
 /* "Shop the edit" / catalogue snapshots: grey tiles like the catalogue cards */
 section.jshop { margin: 40px 0; padding: 28px 0 0; border-top: 1px solid var(--line); }
 .jshop .eyebrow { margin-bottom: 8px; }
