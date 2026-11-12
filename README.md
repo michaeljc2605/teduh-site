@@ -86,7 +86,7 @@ The supporting pages give the collection more context and help visitors work thr
 | --- | --- |
 | [Journal](journal.html) | Seven articles about clothing care, campus life, office outfits, dressing for the heat, hawker-centre lunches, monsoon weather and travel. Each article connects its topic to products and related reading. |
 | [Size guide](size-guide.html) | Switch between Tops & dresses, Bottoms and Unisex shirts, then use the measurement guidance. |
-| [Fabric & sustainability](fabric.html) | Read the proposed material story, illustrative comparison bars and future sustainability goals. These are project content, not measured results or verified business achievements. |
+| [Fabric & sustainability](fabric.html) | Compare the chosen fabrics across all 12 pieces, read guidance on lining and layering, and review future sustainability goals. These are project specifications, not measured results or verified business achievements. |
 | [Community](community.html) | Shop a monthly community pick and ten AI-generated styling concepts (six link to the products in them), plus the proposed outfit-sharing campaign. The gallery and scrolling social strip are static content, not a live social-media feed. |
 | [FAQ & delivery](faq.html) | Expand questions about products, ordering, delivery and returns. |
 | [Our story](about.html) and [Team](team.html) | Read the fictional brand story and see the student team and its listed responsibilities. |
@@ -173,7 +173,7 @@ The [Team page](team.html) lists these roles:
 | Aisha Tasya Aulia | Copywriter |
 | Muhammad Rizki | UI/UX Designer |
 
-Catalogue photographs were supplied from **Drunk Dad**. Original product references and image records are documented in [images/catalog/source-map.json](images/catalog/source-map.json). TEEDUH's fictional product names and prices are part of this project.
+Catalogue photographs were supplied from **Drunk Dad**. Original product references and image records are documented in [images/catalog/source-map.json](images/catalog/source-map.json). TEEDUH's fictional product names and prices are part of this project. Material compositions, blend ratios and lining specifications are also deliberately chosen for this fictional collection. They describe the TEEDUH concept, not verified specifications of the photographed source garments or supplier-tested products. Fabric performance and care would need validation before any real production or sale.
 
 The ten campaign images are recorded as **AI-generated styling concepts** in [images/instagram/source-map.json](images/instagram/source-map.json). They appear in the homepage, lookbook, community gallery and other editorial sections. The README screenshots capture the website using these existing assets.
 
