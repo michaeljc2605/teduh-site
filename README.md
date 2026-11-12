@@ -19,7 +19,7 @@ Visitors can browse 12 products, compare colours and sizes, explore outfit ideas
 | Course and tutorial | CS2024, T02 |
 | Brand context | Fictional fashion label for everyday life in Singapore |
 | Collection | Drop 03, with 12 product pages |
-| Website | 34 HTML pages and one shared stylesheet |
+| Website | 35 HTML pages and one shared stylesheet |
 | Technology | HTML, CSS and locally stored images; no JavaScript or package installation required |
 | Current scope | A storefront prototype with interactive browsing and placeholder external services |
 | Repository | [AeruSeishiro/teduh-site](https://github.com/AeruSeishiro/teduh-site) |
@@ -84,10 +84,10 @@ The supporting pages give the collection more context and help visitors work thr
 
 | Page | What to explore |
 | --- | --- |
-| [Journal](journal.html) | Six articles about clothing care, campus life, office outfits, hawker-centre lunches, monsoon weather and travel. Each article connects its topic to products and related reading. |
+| [Journal](journal.html) | Seven articles about clothing care, campus life, office outfits, dressing for the heat, hawker-centre lunches, monsoon weather and travel. Each article connects its topic to products and related reading. |
 | [Size guide](size-guide.html) | Switch between Tops & dresses, Bottoms and Unisex shirts, then use the measurement guidance. |
 | [Fabric & sustainability](fabric.html) | Read the proposed material story, illustrative comparison bars and future sustainability goals. These are project content, not measured results or verified business achievements. |
-| [Community](community.html) | Browse ten AI-generated styling concepts and the proposed outfit-sharing campaign. The gallery and scrolling social strip are static content, not a live social-media feed. |
+| [Community](community.html) | Shop a monthly community pick and ten AI-generated styling concepts (six link to the products in them), plus the proposed outfit-sharing campaign. The gallery and scrolling social strip are static content, not a live social-media feed. |
 | [FAQ & delivery](faq.html) | Expand questions about products, ordering, delivery and returns. |
 | [Our story](about.html) and [Team](team.html) | Read the fictional brand story and see the student team and its listed responsibilities. |
 | [Contact](contact.html), [welcome offer](get-15-off.html) and [Privacy](privacy.html) | Inspect the contact and voucher form layouts, consent choices and explanatory privacy copy. Form delivery is not configured. |
@@ -126,13 +126,13 @@ Some effects depend on browser support for newer CSS and HTML features. The styl
 
 ## Page and asset structure
 
-The 34 HTML files comprise **12 product pages, six journal articles and 16 other pages**, including Privacy and the 404 page.
+The 35 HTML files comprise **12 product pages, seven journal articles and 16 other pages**, including Privacy and the 404 page.
 
 | Group | Files or location |
 | --- | --- |
 | Home and collections | `index.html`, `shop.html`, `women.html`, `men.html` |
 | Product pages | `air-shirt.html`, `breeze-pant.html`, `rose-tee.html`, `stripe-knit.html`, `dot-tank.html`, `tie-top.html`, `sheer-dress.html`, `wrap-skirt.html`, `suede-skirt.html`, `zip-jacket.html`, `pleat-henley.html`, `drift-shorts.html` |
-| Editorial and brand | `lookbook.html`, `fabric.html`, `journal.html`, six `journal-*.html` articles, `community.html`, `about.html`, `team.html` |
+| Editorial and brand | `lookbook.html`, `fabric.html`, `journal.html`, seven `journal-*.html` articles, `community.html`, `about.html`, `team.html` |
 | Help and forms | `size-guide.html`, `faq.html`, `contact.html`, `get-15-off.html`, `privacy.html`, `404.html` |
 | Shared styling | `css/style.css` |
 | Current catalogue photography | `images/catalog/` |
