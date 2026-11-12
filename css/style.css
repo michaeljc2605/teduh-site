@@ -1303,6 +1303,18 @@ section.jshop--wide { margin: 72px 0 0; padding-top: 40px; }
 /* Community pick: a CSS-only carousel of shoppable looks (radios + labels, no JS).
    Each slide is a full-bleed editorial split: the look on the left, its pieces on the right. */
 section.cpick { position: relative; padding: 0; background: var(--tile); }
+.cpick__chooser { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; padding: 20px var(--pad); border-bottom: 1px solid var(--line-2); }
+.cpick__choice { display: flex; align-items: center; gap: 12px; padding: 12px; border: 1px solid var(--line-2); cursor: pointer; }
+.cpick__choice img { width: 44px; height: 55px; flex-shrink: 0; object-fit: cover; }
+.cpick__choice small, .cpick__choice strong { display: block; }
+.cpick__choice small { color: var(--mute); font: 400 12px/1.4 var(--inter); }
+.cpick__choice strong { margin-top: 4px; font: 600 14px/1.35 var(--inter); }
+.cpick__choice:hover { border-color: var(--ink); }
+.cpick:has(#cp1:checked) .cpick__choice[for="cp1"],
+.cpick:has(#cp2:checked) .cpick__choice[for="cp2"],
+.cpick:has(#cp3:checked) .cpick__choice[for="cp3"],
+.cpick:has(#cp4:checked) .cpick__choice[for="cp4"] { border-color: var(--ink); background: var(--white); box-shadow: inset 0 -2px var(--ink); }
+.cpick:has(.cpick__radio:focus-visible) .cpick__chooser { outline: 2px solid var(--focus); outline-offset: -4px; }
 .cpick__slides { display: grid; }
 .cpick__slide { grid-area: 1 / 1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); min-height: min(calc(100vh - var(--header-h, 56px)), 940px); opacity: 0; visibility: hidden; transition: opacity .55s var(--ease), visibility 0s linear .55s; }
 .cpick:has(#cp1:checked) .cpick__slide:nth-child(1),
@@ -1329,7 +1341,7 @@ section.cpick { position: relative; padding: 0; background: var(--tile); }
 .cpick__arrows { display: inline-flex; align-items: center; gap: 14px; border-radius: 999px; }
 .cpick__arrow { display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid var(--line-2); border-radius: 50%; color: var(--ui); font-size: 18px; cursor: pointer; user-select: none; transition: background .35s var(--ease-io), color .35s var(--ease-io), border-color .35s var(--ease-io); }
 .cpick__arrow:hover { background: var(--ink); border-color: var(--ink); color: var(--white); }
-.cpick__count { min-width: 52px; color: var(--mute); font: 500 13px/1 var(--inter); letter-spacing: .08em; text-align: center; font-variant-numeric: tabular-nums; }
+.cpick__count { min-width: 52px; white-space: nowrap; color: var(--mute); font: 500 13px/1 var(--inter); letter-spacing: .08em; text-align: center; font-variant-numeric: tabular-nums; }
 .cpick:has(.cpick__radio:focus-visible) .cpick__arrows { outline: 2px solid var(--focus); outline-offset: 6px; }
 .cpick__title { margin: clamp(16px, 1.6vw, 24px) 0 18px; font-size: clamp(44px, 4.6vw, 88px); line-height: .9; }
 .cpick__lead { margin: 0; font-size: clamp(17px, 1.2vw, 19px); max-width: 54ch; }
@@ -1356,6 +1368,10 @@ section.cpick { position: relative; padding: 0; background: var(--tile); }
   .cpick__media > img { scale: 1; }
 }
 @media (max-width: 880px) {
+  .cpick__chooser { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 16px var(--pad); }
+  .cpick__choice { gap: 8px; padding: 8px; }
+  .cpick__choice small { font-size: 11px; }
+  .cpick__choice strong { font-size: 13px; }
   .cpick__slide { grid-template-columns: 1fr; min-height: 0; }
   .cpick__media { aspect-ratio: 4 / 5; max-height: 78vh; }
   .cpick__body { padding: 40px var(--pad) 64px; }
